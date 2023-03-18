@@ -1,2 +1,1 @@
-# Sentimental-Analysis-
-Getting Started with Sentimental Analysis 
+# Getting Started with Sentimental Analysis 
