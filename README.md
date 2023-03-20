@@ -23,6 +23,11 @@ Steps to take when you want to do Sentiment Analysis :
    - Remove stop words: Stop words are common words that do not carry any significant meaning, such as "the," "and," or "a." Removing these words can help reduce the size of the text data and make it easier to analyze.
    - Tokenize the data: Tokenizing involves splitting the text data into individual words or phrases, which can then be analyzed and classified according to their sentiment.
 4. Choose a sentiment analysis tool that suits your needs and budget.
+   
+   There are many sentiment analysis tools available, including both open-source and commercial options. Here are a few examples:
+   - NLTK: The Natural Language Toolkit (NLTK) is a popular Python library for natural language processing that includes a built-in sentiment analysis tool. The tool uses a lexicon-based approach and is designed to work with movie reviews, but it can be adapted for other text types. NLTK is open-source and free to use.
+   - TextBlob: TextBlob is another Python library for natural language processing that includes a sentiment analysis tool. The tool uses a naive Bayes classifier and is trained on a large corpus of movie reviews. TextBlob is open-source and free to use.
+   - VADER: The Valence Aware Dictionary and sEntiment Reasoner (VADER) is a rule-based sentiment analysis tool that is designed specifically for social media text. It is available in the nltk library for Python and is free to use.
 5. Train your model (if using a machine learning-based tool).
 
    In the training process, your model links with a particular input(i.e., text) to the corresponding output based on the test sample. The feature extractor will help to transfer the input to the feature vector. These pairs of feature vectors and the tags provided are transferred to the machine learning algorithm to generate a model.
